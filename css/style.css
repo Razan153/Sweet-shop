@@ -23,8 +23,12 @@ html {
 
 body {
     font-family: 'Open Sans', sans-serif;
-    width:125%;
+
 }
+@media (max-width: 768px) {
+    body {
+        width: 125%;
+    }}
 
 ul {
     list-style: none;
