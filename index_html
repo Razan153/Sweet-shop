@@ -1,0 +1,423 @@
+<html lang="en">
+
+<head>
+    <title>project1</title>
+    <meta charset="UTF-8">
+    <!--bootstap-->
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <!--render all elments normally-->
+    <link rel="stylesheet" href="css/normaliz.css">
+    <!--main file of css-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--font awessome-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!--google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <script src="bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+    <!--start header-->
+    <header>
+        <div class=" d-lg-flex p-10  justify-content-evenly d-none ">
+            <span>Call us: (+844) 123 456 78</span>
+            <div class="location d-flex align-items-center">
+                <i class="fa-solid fa-location-dot "></i>
+                <span class=" ms-2">5th Avenue,NewYork Bond Street</span>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container">
+                <a class=" navbar-brand" href="#">Sweets</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex-lg justify-content-between" id="navbarNavDropdown">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0 align-content-center ">
+                        <li class="nav-item ">
+                            <a class="nav-link active mx-2" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#"> About</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#">Menu</a>
+                        </li>
+                        <li class="nav-item dropdown mx-2">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Blog
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link  " aria-current="page" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="icon d-lg-flex align-items-center d-none  ">
+                        <a href="#"><i class="fa-solid fa-heart" style="color: #b62121;"></i></a>
+                        <a href="#"><i class="fa-solid fa-cart-plus  ms-3 " style="color:white;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <!--start landing-->
+    <div class="landing ">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item ">
+                    <img src="./img/MOIST Carrot Cake With Cream Cheese Frosting Butternut Bakery.jpeg"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item active">
+                    <img src="./new/photoo/Christie Swadlingoikknkjn.jpg" class="d-block w-100 " alt="..."
+                        style="background-size: cover;">
+                </div>
+                <div class="carousel-item">
+                    <img src="./new/photoo/u4xEaTgr2.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+
+        </div>
+    </div>
+    <!--end landing-->
+    <!--about section-->
+    <div class="about">
+        <h1 class=" variable d-flex justify-content-center">ABOUT US </h1>
+        <div class="container">
+            <div class="row  position-relative d-flex align-items-center py-4 ">
+                <div class=" image col-md-6 col-lg-4 p-md-4">
+                    <img src="./img/Double Chocolate Banana Bread Bundt Cakes.jpeg" alt="..." class="rounded">
+                </div>
+                <div class="col-md-6 col-lg-5 p-4  ">
+                    <h5 class="py-3 fw-bold">Columns with stretched link</h5>
+                    <p>Another instance of placeholder content for this other custom component. It is intended to mimic
+                        what some real-world content would look like, and we're using it here to give the component a
+                        bit of body and size.</p>
+                    <a href="#" class="stretched-link">Read More</a>
+                </div>
+            </div>
+            <div class="row second g-0 position-relative d-flex align-items-center justify-content-end  py-md-4">
+                <div class="col-md-6 col-lg-5 p-4 ">
+                    <h5 class="py-3 fw-bold"> Quality cakes and pastries</h5>
+                    <p>Another instance of placeholder content for this other custom component. It is intended to mimic
+                        what some real-world content would look like, and we're using it here to give the component a
+                        bit of body and size.</p>
+                    <a href="#" class="stretched-link">Read more</a>
+                </div>
+                <div class="image col-lg-3 col-md-6 mb-md-0 p-md-4">
+                    <img src="./new/photoo/Pretty Pansies, Blueberry Meringue Kisses Teacakes.jpeg" alt="..."
+                        class="rounded">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end about section-->
+    <!--menu-->
+    <div class="menu py-5">
+        <h1 class=" variable d-flex justify-content-center">MENU </h1>
+        <div class="container text-center my-4">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 g-3">
+                    <div class="card rounded-top">
+                        <img src="./img/Chocolate Gingerbread Mini.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class=" mb-3"> Gingerbread </h5>
+                            <div class="inf d-flex justify-content-between align-items-center">
+                                <div class="priece"> 29.99 $</div>
+                                <div class="icon">
+                                    <a href=""><i class="fa-solid fa-heart" style="color: #d71236;"></i></a>
+                                    <a href="#"><i class="fa-solid fa-cart-plus  ms-3 " style="color:#571f1f;"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 g-3">
+                    <div class="card rounded-top">
+                        <img src="./img/van cake.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class=" mb-3"> Van Cake </h5>
+                            <div class="inf d-flex justify-content-between align-items-center">
+                                <div class="priece"> 40.00 $</div>
+                                <div class="icon">
+                                    <a href=""><i class="fa-solid fa-heart" style="color: #d71236;"></i></a>
+                                    <a href="#"><i class="fa-solid fa-cart-plus  ms-3 " style="color:#571f1f;"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 g-3">
+                    <div class="card rounded-top">
+                        <img src="./img/The BEST Healthy.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class=" mb-3"> Chocolate Capcake </h5>
+                            <div class="inf d-flex justify-content-between align-items-center">
+                                <div class="priece"> 65.00 $</div>
+                                <div class="icon">
+                                    <a href="#"><i class="fa-solid fa-heart" style="color: #d71236;"></i></a>
+                                    <a href="#"><i class="fa-solid fa-cart-plus  ms-3 " style="color:#571f1f;"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 g-3">
+                    <div class="card rounded-top">
+                        <img src="./img/Strawberry and Elderflower.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class=" mb-3"> Flower Cake </h5>
+                            <div class="inf d-flex justify-content-between align-items-center">
+                                <div class="priece"> 20.99 $</div>
+                                <div class="icon">
+                                    <a href="#"><i class="fa-solid fa-heart" style="color: #d71236;"></i></i></a>
+                                    <a href="#"><i class="fa-solid fa-cart-plus  ms-3 " style="color:#571f1f;"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6  g-3 ">
+                    <div class="card rounded-top">
+                        <img src="./img/Red velvet.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class=" mb-3"> Red Velent </h5>
+                            <div class="inf d-flex justify-content-between align-items-center">
+                                <div class="priece"> 35.00 $</div>
+                                <div class="icon">
+                                    <a href="#"><i class="fa-solid fa-heart" style="color: #d71236;"></i></a>
+                                    <a href="#"><i class="fa-solid fa-cart-plus  ms-3 " style="color:#571f1f;"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 g-3 ">
+                    <div class="card rounded-top">
+                        <img src="./img/Tiramisu Mini Cupcakes.jpg" class="card-img-top" alt="...">
+                        <div class="card-body  ">
+                            <h5 class=" mb-3"> Cupcake </h5>
+                            <div class="inf d-flex justify-content-between align-items-center">
+                                <div class="priece"> 20.99 $</div>
+                                <div class="icon">
+                                    <a href="#"><i class="fa-solid fa-heart" style="color: #d71236;"></i></a>
+                                    <a href="#"><i class="fa-solid fa-cart-plus  ms-3 " style="color:#571f1f;"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6  g-3">
+                    <div class="card rounded-top">
+                        <img src="./img/Baked Nutella Doughnuts with Nutella Glaze - Cooking Classy.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class=" mb-3"> Doughnuts </h5>
+                            <div class="inf d-flex justify-content-between align-items-center">
+                                <div class="priece"> 25.00 $</div>
+                                <div class="icon">
+                                    <a href="#"><i class="fa-solid fa-heart" style="color: #d71236;"></i></a>
+                                    <a href="#"><i class="fa-solid fa-cart-plus  ms-3 " style="color:#571f1f;"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6  g-3">
+                    <div class="card rounded-top">
+                        <img src="./img/Tiramisu.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class=" mb-3"> Tiramisu </h5>
+                            <div class="inf d-flex justify-content-between align-items-center">
+                                <div class="priece"> 18.99 $</div>
+                                <div class="icon">
+                                    <a href="#"><i class="fa-solid fa-heart" style="color: #d71236;"></i></a>
+                                    <a href="#"><i class="fa-solid fa-cart-plus  ms-3 " style="color:#571f1f;"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#"> <button type="button" class="btn btn-outline-danger text-center my-5">View All
+                    Menu</button></a>
+        </div>
+    </div>
+    <!--end menu-->
+    <!--our team-->
+    <div class="our-team">
+        <h1 class=" variable d-flex justify-content-center  ">OUR TEAM </h1>
+        <div class="container">
+            <div class="row d-flex justify-content-evenly align-items-center  mt-4">
+                <div class="col text-center  g-3">
+                    <img src="./img/632,700+ Chef Stock Photos, Pictures & Royalty-Free Images.jpeg" alt=""
+                    >
+                    <h4 class="my-2">Richard Smath</h4>
+                    <p>Richard has a true passion for baking and that’s
+                        why he has been our founder and head
+                        baker since day one.</p>
+                    <div class="social d-flex align-items-center justify-content-center">
+                        <a href="#"><i class="fa-brands fa-square-facebook mx-2"></i></a>
+
+                        <a href="#"><i class="fa-brands fa-twitter mx-2"></i>
+                        </a>
+                        <a href="#"><i class="fa-brands fa-instagram mx-2"></i></a>
+                    </div>
+                </div>
+                <div class="col text-center g-3">
+                    <img src="./img/Walnut Hill College World-Class Culinary, Pastry, and Hospitality Degrees.jpeg"
+                        >
+                    <h4 class="my-2">Susan Anderson</h4>
+                    <p>Richard has a true passion for baking and that’s
+                        why he has been our founder and head
+                        baker since day one.</p>
+                    <div class="social d-flex align-items-center justify-content-center">
+                        <a href="#"><i class="fa-brands fa-square-facebook mx-2"></i></a>
+
+                        <a href="#"><i class="fa-brands fa-twitter mx-2"></i>
+                        </a>
+                        <a href="#"><i class="fa-brands fa-instagram mx-2"></i></a>
+                    </div>
+                </div>
+
+                <div class="col text-center g-3 ">
+                    <img src="./img/Premium Photo Portrait of smiling female chef holding plate.jpeg" alt=""
+                        >
+                    <h4 class="my-2">Steven Ruffalo </h4>
+                    <p>Richard has a true passion for baking and that’s
+                        why he has been our founder and head
+                        baker since day one.</p>
+                    <div class="social d-flex  align-items-center justify-content-center">
+                        <a href="#"><i class="fa-brands fa-square-facebook mx-2"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter mx-2"></i>
+                        </a>
+                        <a href="#"><i class="fa-brands fa-instagram mx-2"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!--end our team-->
+    <!--offer-->
+    <div class="offer">
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="col-6">
+                    <h1 class="my-3">SUMMER OFFER 25%</h1>
+                    <span class="my-4">ON All Kind Of Cake</span>
+                    <p class="my-4">Purchase our tasty cakes and sweets for your next event or
+                        family dinner at our online shop and save
+                        more money than anywhere.</p>
+                    <button type="button" class="btn  btn-lg my-4">Shop Now</button>
+                </div>
+
+                <div class="col-6">
+                    <img src="./img/This Perfect Cheesecake Will Make You Feel Like a Pro Baker.jpeg" alt=" "
+                        style="width: 600px;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end offer-->
+    <!--contact us-->
+    <div class="contact-us">
+        <h1 class=" variable d-flex justify-content-center  ">CONTACT US</h1>
+        <div class="container">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-lg-5 col-sm-12">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-dark">Submit</button>
+                </div>
+                <div class="col p-sm-4"></div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122809.74536588111!2d74.43839991910458!3d15.866866969046482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbf669f5095362f%
+                3A0x7e34b31edcdefb5f!2sBelgaum%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1569479258835!5m2!1sen!2sin"
+                    style="width: 500px; height: 400px;"></iframe>
+            </div>
+        </div>
+    </div>
+    <!--end contact-us-->
+    <!--footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="col-6">
+                    <span class="mt-2">Sweet Shop</span>
+                    <div class="icons d-flex align-items-center my-3">
+                        <i class="fa-brands fa-square-facebook mx-2"></i>
+                        <i class="fa-brands fa-twitter mx-2"></i>
+                        <i class="fa-brands fa-instagram mx-2"></i>
+                    </div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Temporibus nulla rem, dignissimos iste aspernatu</p>
+                </div>
+                <div class="col-6 d-block">
+                    <div class="infor d-flex align-items-center ">
+                        <i class="fa-solid fa-location-dot mx-3"></i>
+                        <div>Egypt, Giza, Inside The Sphinx, Room Number 220</div>
+                    </div>
+                    <div class="infor d-flex align-items-center  mt-3">
+                        <i class="fa-regular fa-clock mx-3"></i>
+                        <div> Business Hours: From 10:00 To 18:00 </div>
+                    </div>
+                    <div class="infor d-flex align-items-center mt-3">
+                        <i class="fa-solid fa-phone-volume mx-3"></i>
+                        <div class="Number"> +20123456789 <br>
+                            +20198765432 </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--end footer-->
+</body>
+
+</html>
