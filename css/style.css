@@ -23,7 +23,6 @@ html {
 
 body {
     font-family: 'Open Sans', sans-serif;
-width:100%;
 }
 
 ul {
@@ -173,7 +172,7 @@ letter-spacing: 1px;
 
 .menu .row .card-body h5{ 
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-/*font-family: 'Playfair Display', serif;*/
+
 text-align:left;
 color: #595959;
 }
